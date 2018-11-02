@@ -13,7 +13,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <p onClick={this.actions}>12222353151353</p>
+                <p onClick={this.actions}>点一下看效果</p>
                 <p>{this.props.HomeStore.title}</p>
                 <Link to="/me">跳转</Link>
             </div>
