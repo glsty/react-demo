@@ -5,9 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### clone 
-
-git clone https://github.com/glsty/react-demo.git 
-
+```
+    git  clone https://github.com/glsty/react-demo.git 
+```
 
 ### `npm install  or  yarn install`
 
