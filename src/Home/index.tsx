@@ -18,13 +18,12 @@ interface InjectProps extends Props {
 class Home extends React.Component<Props, any> {
 
     get Inject () {
-        return this.props as HomeStore
+        return this.props as InjectProps
     }
 
   private actions = () => {
       const { HomeStore } = this.Inject;
       HomeStore.changeVal()
-       // this.props.HomeStore.changeVal();
     }
     state = {
         val: ''
