@@ -18,7 +18,7 @@ interface InjectProps extends Props {
 class Home extends React.Component<Props, any> {
 
     get Inject () {
-        return this.props as InjectProps
+        return this.props as HomeStore
     }
 
   private actions = () => {
