@@ -1,11 +1,11 @@
 import { observable, action } from 'mobx';
 
 
-class HomeStore {
+export class HomeStore {
     @observable title = 'hello world';
     @action changeVal = ()=> {
         this.title = 'happy'
     }
     
 }
-export default new HomeStore();
+export default  new HomeStore();

@@ -2,16 +2,18 @@ import React from 'react';
 import { inject,observer } from 'mobx-react';
 import {Link} from 'react-router-dom';
 import { Input, Row, Col } from 'antd';
-import {HomeStore} from './store'
+import { HomeStore } from './store'
 import'./style.css'
 
 interface Props {}
-
 interface InjectProps extends Props {
     HomeStore: HomeStore
   }
 
+
 @inject( 'HomeStore' )
+
+
 
 @observer
 
